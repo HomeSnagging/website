@@ -8,6 +8,30 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Home Snagging Solutions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Get In Touch</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <header class="header-image">
     <div class="header-content text-center">
         <h1>Welcome to Home Snagging Solutions</h1>
@@ -17,6 +41,16 @@
 
 <!-- Main Content -->
 <main class="container">
+    <div id="about" class="row mt-5">
+        <h2 class="text-center">About Us</h2>
+        <p class="text-center">We specialize in snagging reports, structural surveys, and planning applications to help homeowners and property buyers make informed decisions.</p>
+    </div>
+
+    <div id="pricing" class="row mt-5">
+        <h2 class="text-center">Pricing</h2>
+        <p class="text-center">Our pricing is tailored to your needs. Contact us for a customized quote.</p>
+    </div>
+
     <div class="row mt-5">
         <!-- Snag Lists Card -->
         <div class="col-md-4">
@@ -64,8 +98,8 @@
             <input type="hidden" name="replyTo" value="thehomesnagging@gmail.com">
             <!-- Subject -->
             <input type="hidden" name="subject" value="New Contact Form Submission">
-            <!-- Redirect After Submission -->
-            <input type="hidden" name="redirectTo" value="thank-you.html">
+            <!-- Redirect After Submission (Updated URL for GitHub Pages) -->
+            <input type="hidden" name="redirectTo" value="https://craigsmith.github.io/home-snagging-solutions/thank-you.html">
 
             <div class="mb-3">
                 <label for="name" class="form-label">Your Name</label>
@@ -82,6 +116,7 @@
 
             <button type="submit" class="btn btn-primary w-100">Send Message</button>
         </form>
+
     </section>
 </main>
 
@@ -89,6 +124,9 @@
 <footer class="bg-light text-center p-3 mt-5">
     <p>&copy; 2025 Home Snagging Solutions. All Rights Reserved.</p>
 </footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>
