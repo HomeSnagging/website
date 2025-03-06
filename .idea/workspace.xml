@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8252bef6-216c-4caf-b1ab-76a49150b8fa" name="Changes" comment="Initial Upload">
+      <change afterPath="$PROJECT_DIR$/assets/meeting.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/team.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -70,6 +72,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\craig\Documents\1.Personal\2. Business\Squared Solutions\sq_solutions\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +93,7 @@
       <workItem from="1740741194712" duration="2775000" />
       <workItem from="1740744628980" duration="366000" />
       <workItem from="1740745132421" duration="443000" />
-      <workItem from="1741257837190" duration="1326000" />
+      <workItem from="1741257837190" duration="3293000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Upload">
       <option name="closed" value="true" />
@@ -104,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740745168476</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Upload">
+      <option name="closed" value="true" />
+      <created>1741263410183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741263410183</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
