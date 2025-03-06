@@ -89,3 +89,43 @@
 .card-overlay:hover .card-description {
     display: block; /* Shows description on hover */
 }
+/* Style for headings with a grey background */
+.service-heading {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px 15px; /* Adds spacing around the text */
+    display: inline-block; /* Ensures background only covers the text width */
+    border-radius: 5px; /* Adds rounded corners */
+    font-weight: bold; /* Makes text stand out */
+}
+/* Default styling for images */
+.service-image {
+    width: 80%; /* Default size on larger screens */
+    max-width: 400px; /* Prevents oversized images */
+    padding: 20px; /* General padding */
+}
+
+/* Adjust image size and padding for mobile screens */
+@media (max-width: 768px) {
+    .service-image {
+        width: 60%; /* Makes the image smaller on mobile */
+        max-width: 250px; /* Limits max size */
+        padding: 30px; /* Increases padding for better spacing */
+    }
+}
+/* Section divider line */
+.section-divider {
+    border: none;
+    height: 2px; /* Thickness of the line */
+    background-color: #ccc; /* Light grey color */
+    margin: 50px auto; /* Spacing between sections */
+    width: 80%; /* Line width */
+}
+
+/* Optional: Add a shadow effect */
+.section-divider-shadow {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+    margin: 50px auto;
+    width: 80%;
+}
